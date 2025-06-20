@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Body*/
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  background-color: hsl(0, 0%, 100%);
+  margin: 2.5rem;
+  line-height: 2rem;
+}
+
+main {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+}
+
+
+h1, h3,h4 {
+  font-family: 'Young Serif', serif;
+  font-weight: 400;
+}
+
+p{
+    font-size: 16px;
+    color: hsl(24, 5%, 18%);
+}
+ 
+.description{
+    padding: 1rem;
+}
+
+/* Styling the Preparation time section*/
+
+.Preparation{
+    background-color: hsl(330, 100%, 98%);
+    margin-bottom: 2rem;
+   padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.Preparation h4{
+    color:hsl(332, 51%, 32%) ;
+}
+
+ul li {
+  margin-left: 1.5rem;
+  padding-left: 0.5rem;
+
+
+}
+
+/* Pink bullets for Preparation section */
+.Preparation ul li::marker {
+  color: hsl(332, 51%, 32%); /* Pink shade */
+  font-weight: bold;
+}
+
+/* Brown bullets for Ingredients section */
+.Ingredients ul li::marker {
+  color: hsl(14, 45%, 36%); /* Brown shade */
+  font-weight: bold;
+}
+.Instructions {
+  margin-top: 2rem;
+  padding: 1rem; /* Add padding if needed for spacing consistency */
+   border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+
+
+ol li::marker {
+  color: hsl(14, 45%, 36%); /* Brown */
+  font-weight: 700;
+}
+
+
+ol li {
+  margin-bottom: 1rem;
+  padding-left: 0.5rem;
+
+  
+}
+
+
+
+/* Styling the Ingredient section*/
+.Ingredients h3{
+    color: hsl(14, 45%, 36%);
+    font-weight: 500;
+    padding-bottom: 0.5rem;
+
+}
+
+.Ingredients{
+     border-bottom: 1px solid hsl(30, 18%, 87%);
+     padding-bottom: 1rem;
+}
+/* Styling the Instruction section*/
+.Instructions h3{
+    color: hsl(14, 45%, 36%);
+    font-weight: 500;
+    
+}
+
+.Instructions{
+    
+}
+
+/* Styling the Nutrition  section*/
+.Nutrition h3{
+color: hsl(14, 45%, 36%);
+    font-weight: 500;
+}
+
+
+
+
+
+h1{
+   font-size: 2rem; 
+   color: hsl(24, 5%, 18%);
+   font-weight: 900;
+   padding: 1rem;
+}
+/* Table section*/
+.Nutrition table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.Nutrition th {
+  text-align: left;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.Nutrition tr:last-child th {
+  border-bottom: none;
+}
+
+.Nutrition th:last-child {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
